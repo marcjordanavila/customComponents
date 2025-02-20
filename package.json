@@ -64,7 +64,7 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@marcjordanavila"
+    "registry": "https://npm.pkg.github.com/"
   },
   "name": "@marcjordanavila/customcomponets"
 }
