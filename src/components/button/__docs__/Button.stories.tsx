@@ -14,7 +14,7 @@ export const Primary: Story = {
     text: "Button",
     primary: true,
     disabled: false,
-    size: "small",
+    size: "large",
     onClick: () => console.log("Button"),
   },
 };
