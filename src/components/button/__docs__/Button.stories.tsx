@@ -22,7 +22,7 @@ export const Secondary: Story = {
   args: {
     text: "Button",
     primary: false,
-    disabled: false,
+    disabled: true,
     size: "small",
     onClick: () => console.log("Button"),
   },
