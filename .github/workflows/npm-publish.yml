@@ -21,6 +21,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Configure .npmrc for npmjs
+        run: |
+          echo "@marcjordanavila:registry=https://registry.npmjs.org/" > .npmrc
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> .npmrc
+
       - name: Publish to npm
         run: npm publish --access public
         env:
